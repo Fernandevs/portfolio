@@ -1,7 +1,7 @@
 import { string } from 'prop-types';
 
 import { GifItem } from './GifItem.jsx';
-import { useFetchGifs } from '../hooks/useFetchGifs.js';
+import { useFetchGifs } from '../hooks';
 
 export const GifGrid = ({ category }) => {
   const { isLoading, images } = useFetchGifs(category);
