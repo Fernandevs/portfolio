@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import { SimpleForm } from './useEffect/SimpleForm.jsx';
-import './index.css';
+import App from './App.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SimpleForm/>
+    <App/>
   </React.StrictMode>,
 );
